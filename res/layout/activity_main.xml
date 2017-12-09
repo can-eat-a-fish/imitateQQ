@@ -1,0 +1,17 @@
+<com.example.test.Draglayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mDraglayout"
+    android:background="@drawable/bg" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"/>
+
+    <include layout="@layout/layout_menu" />
+
+    <include layout="@layout/layout_main" />
+
+</com.example.test.Draglayout>
